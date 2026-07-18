@@ -101,14 +101,6 @@ section {
     align-items: center;
     justify-content: center;
 
-    background:
-        linear-gradient(
-            to bottom,
-            rgba(0,0,0,.30),
-            rgba(0,0,0,.45)
-        ),
-        url("../images/aquarium.jpg");
-
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -117,7 +109,7 @@ section {
 
 }
 
-.hero::after{
+.hero-overlay::after{
 
     content:"";
 
@@ -127,7 +119,7 @@ section {
     right:0;
     bottom:0;
 
-    height:240px;
+    height:380px;
 
     background:linear-gradient(
 
@@ -143,7 +135,27 @@ section {
 
     );
 
-    pointer-events:none;
+}
+
+.hero-background {
+
+    position: absolute;
+
+    inset: 0;
+
+    background-image: url("../images/aquarium.jpg");
+
+    background-size: cover;
+
+    background-position: center;
+
+    background-repeat: no-repeat;
+
+    transform: translateY(0);
+
+    will-change: transform;
+
+    z-index: 0;
 
 }
 
@@ -171,6 +183,8 @@ section {
 
     margin-bottom: 2rem;
 
+    text-shadow: 0 6px 30px rgba(0,0,0,.45);
+
 }
 
 .hero-mission {
@@ -178,7 +192,7 @@ section {
     margin-bottom: clamp(1.75rem, 2vw, 2.5rem);
     max-width:42rem;
     margin-inline:auto;
-    
+    text-shadow: 0 2px 12px rgba(0,0,0,.5);
 }
 
 .hero-subtitle {
@@ -316,5 +330,19 @@ section {
 .button-secondary:hover {
 
     opacity: 1;
+
+}
+
+.hero-overlay {
+
+    position: absolute;
+    inset: 0;
+
+    background: linear-gradient(
+        rgba(0,0,0,.45),
+        rgba(0,0,0,.55)
+    );
+
+    z-index: 1;
 
 }
