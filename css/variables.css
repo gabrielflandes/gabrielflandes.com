@@ -20,7 +20,21 @@
     --gold:#C9A458;
 
     --border:#20313D;
-    
+
+    /* =========================
+       SPACING
+    ========================= */
+
+    --space-xs: 0.5rem;
+    --space-sm: 1rem;
+    --space-md: 2rem;
+    --space-lg: 2.25rem;
+    --space-xl: 4rem;
+    --space-2xl: 8rem;
+    --radius-small: 12px;
+    --radius-medium: 20px;
+    --radius-large: 32px;
+
     /* =========================
        TYPOGRAPHY
     ========================== */
@@ -36,19 +50,41 @@
 
     --section-padding: 120px;
 
+    --navbar-height: 80px;
+    --navbar-padding: 1.5rem;
+
     /* =========================
        BORDER RADIUS
     ========================== */
 
-    --radius-small: 8px;
-    --radius-medium: 16px;
-    --radius-large: 24px;
+    --radius-small: 12px;
+    --radius-medium: 20px;
+    --radius-large: 32px;
 
     /* =========================
        TRANSITIONS
     ========================== */
 
-    --transition: .25s ease;
+    --transition-fast: .2s ease;
+    --transition: .35s ease;
+    --transition-slow: .6s ease;
+
+    /* =========================
+        NAVIGATION
+    ========================= */
+
+    --navbar-height: 72px;
+    --navbar-padding: 1.5rem;
+    
+    /* =========================
+        SHADOWS
+    ========================= */
+
+    --shadow-sm: 0 4px 16px rgba(0,0,0,.15);
+
+    --shadow-md: 0 10px 30px rgba(0,0,0,.25);
+
+    --shadow-lg: 0 20px 60px rgba(0,0,0,.35);
 }
 
     
