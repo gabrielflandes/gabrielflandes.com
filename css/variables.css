@@ -1,0 +1,28 @@
+:root {
+
+    /* Colors */
+
+    --background: #0B0B0B;
+    --surface: #181818;
+
+    --text: #FFFFFF;
+    --text-secondary: #B8B8B8;
+
+    --accent: #7FB3D5;
+
+    /* Typography */
+
+    --heading-font: "Space Grotesk", sans-serif;
+    --body-font: "Inter", sans-serif;
+
+    /* Layout */
+
+    --max-width: 1200px;
+
+    --section-spacing: 120px;
+
+    /* Borders */
+
+    --radius: 16px;
+
+}
