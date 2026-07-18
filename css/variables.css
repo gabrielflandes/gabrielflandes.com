@@ -3,20 +3,24 @@
     /* =========================
        COLORS
     ========================== */
-    --background: #07141D;
-    --surface: #10212D;
-    --surface-light: #173243;
+    --background:#070A0D;
 
-    --text: #F5F7FA;
-    --text-secondary: #B7C6CF;
+    --surface:#10161D;
 
-    --accent: #5CC9D8;
-    --accent-hover: #7CD9E5;
+    --surface-light:#18232C;
 
-    --gold: #C8A84A;
+    --text:#F7F8FA;
 
-    --border: #1D3644;
+    --text-secondary:#A6B2BE;
 
+    --accent:#57D5E6;
+
+    --accent-light:#84E8F3;
+
+    --gold:#C9A458;
+
+    --border:#20313D;
+    
     /* =========================
        TYPOGRAPHY
     ========================== */
@@ -45,5 +49,6 @@
     ========================== */
 
     --transition: .25s ease;
-
 }
+
+    
