@@ -31,23 +31,13 @@
 
 .logo {
 
-    font-family: var(--heading-font);
-
-    font-size: 1.25rem;
-
-    font-weight: 700;
-
-    letter-spacing: -.02em;
+    font-size: clamp(1.2rem, 1vw + 1rem, 1.6rem);
 
 }
 
 .nav-links {
 
-    list-style: none;
-
-    display: flex;
-
-    gap: 2rem;
+    gap: clamp(1rem, 2vw, 2.5rem);
 
 }
 

@@ -77,9 +77,7 @@ img {
 
 .container {
 
-    width: min(90%, var(--content-width));
-
-    margin-inline: auto;
+    width: min(92%, var(--content-width));
 
 }
 
@@ -120,13 +118,7 @@ section {
 
 .hero-mission {
 
-    max-width: 700px;
-
-    margin: 0 auto 2.25rem;
-
-    font-size: 1.4rem;
-
-    color: var(--text);
+    margin-bottom: clamp(1.75rem, 2vw, 2.5rem);
 
 }
 
